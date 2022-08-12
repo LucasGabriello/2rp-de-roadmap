@@ -12,10 +12,7 @@
   <tr>
   <th>-ls</th>
   <th>Lista conteúdo do diretório</th>
-  <th>
-...
- teste copia e cola
-...
-  </th>
+  <th>```teste copia e cola```</th>
+  </tr>
 </table>
 </div> 
