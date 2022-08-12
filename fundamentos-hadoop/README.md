@@ -1,5 +1,7 @@
 <h1>Fundamentos Hadoop</h1>
 </p>
+> Hadoop - estrutura de software para processamento de dados de forma distribuida
+</p>
 <h3>Principais comandos:</h3>
 
 <div align="center">
