@@ -4,12 +4,14 @@
 
 <div align="center">
 <table>
+<b>
   <tr>
   <td>Comando</td>
   <td>Descrição</td>
   <td>Parâmetro</td>
   <td>Executando</td>
   </tr>
+</b>
   <tr>
   <th>-ls</th>
   <th>Lista conteúdo do diretório</th>
