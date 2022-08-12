@@ -38,5 +38,68 @@
   <th>hdfs dfs -rm/user/input.txt</th>
   </tr>
 
+  <tr>
+  <th>-du</th>
+  <th>Verifica tamanho do arquivo</th>
+  <th></th>
+  <th>hdfs dfs -du input.txt /user</th>
+  </tr>
+
+  <tr>
+  <th>-cat</th>
+  <th>Exibe o conteúdo do arquivo</th>
+  <th></th>
+  <th>hdfs dfs -cat /user/input.txt</th>
+  </tr>
+
+  <tr>
+  <th>-mkdir</th>
+  <th>Cria uma pasta</th>
+  <th>-p cria caminho</th>
+  <th>hdfs dfs -mkdir /user/diretorio</th>
+  </tr>
+
+  <tr>
+  <th>-rmdir</th>
+  <th>Remove um didretókrio</th>
+  <th></th>
+  <th>hdfs dfs -rmdir /user/diretorio</th>
+  </tr>
+
+  <tr>
+  <th>-tail</th>
+  <th>Mostra parte final do arquivo</th>
+  <th></th>
+  <th>hdfs dfs -tail /user/input.txt</th>
+  </tr>
+
+  <tr>
+  <th>-count</th>
+  <th>Conta o número de diretórios, arquivos etc.</th>
+  <th></th>
+  <th>hdfs dfs -count /user</th>
+  </tr>
+
+  <tr>
+  <th>-setrep</th>
+  <th>Altera o fator de replicação de um arquivo</th>
+  <th></th>
+  <th>hdfs dfs -setrep 3 </br> /user/input.txt</th>
+  </tr>
+
+  <tr>
+  <th>-stat</th>
+  <th>Informa estatistica do arquivo ou diretório</th>
+  <th>%F: tipo </br> %n: nome </br> %r: fator de replicação </br> %y: data de modificação</th>
+  <th>hdfs dfs -stat %F /user/input.txt</th>
+  </tr>
+
+  <tr>
+  <th>-fsck</th>
+  <th>Verifica o estado do sistema de arquivos</th>
+  <th></th>
+  <th>hdfs dfs -fsck / </th>
+  </tr>
+
 </table>
 </div> 
