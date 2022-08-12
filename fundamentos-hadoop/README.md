@@ -5,10 +5,10 @@
 <div align="center">
 <table>
   <tr>
-  <th>Comando</th>
-  <th>Descrição</th>
-  <th>Parâmetro</th>
-  <th>Executando</th>
+  <td>Comando</td>
+  <td>Descrição</td>
+  <td>Parâmetro</td>
+  <td>Executando</td>
   </tr>
   <tr>
   <th>-ls</th>
