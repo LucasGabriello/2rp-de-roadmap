@@ -1,6 +1,8 @@
 <h1>Fundamentos Hadoop</h1>
 <p>
+
 > Hadoop - estrutura de software para processamento de dados de forma distribuida
+
 </p>
 
 <p>
@@ -13,10 +15,15 @@ O Hadoop é uma coleção de subprojetos relacionados para computação distribu
 >TEXTO: Padrão em ferramentas como Hive
 
 >Sequence File: Chave-valor binário <br/> Podem sere divididos ou unidos facilmente
+
 >AVRO: Formato binário para serialização <br/> Ótimo para troca de dados
+
 >ORC: Colunar otimizado para consultas de linhas <br/> Formato "favorito" do ecossistema Hadoop
+
 >RC: Orientado a coluna, chave-valor <br/> ALta taxa de compressão em linha
+
 >Parquet: Orientado a colunas <br/> Binário
+
 </p>
 
 <h3>Principais comandos:</h3>
