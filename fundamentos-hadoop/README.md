@@ -1,9 +1,22 @@
 <h1>Fundamentos Hadoop</h1>
+<p>
+## Hadoop - estrutura de software para processamento de dados de forma distribuida
 </p>
 
-> Hadoop - estrutura de software para processamento de dados de forma distribuida
-
+<p>
+O Hadoop é uma coleção de subprojetos relacionados para computação distribuída, sendo todos eles hospedados pela Apache Software Foundation. Por possuir o código aberto, ele permite modificações relacionadas às necessidades de cada um, tal como é visto em larga escala com as distribuições Linux. Com isso, verifica-se a existência de alguns projetos privados, baseados no Hadoop que não são hospedados pela Apache. Já o próprio tem suas origens no Apache Nutch, um motor de pesquisa online juntamente com vários outros elementos, como o GDFS (Google Distributed FileSystem). sendo portados para funcionar com o modelo MapReduce, sendo fundidos no projeto Hadoop. incorporado pela Yahoo e utilizado em larga escala.
 </p>
+
+<h3>Tipo de dados</h3>
+<p>
+>TEXTO: Padrão em ferramentas como Hive
+>Sequence File: Chave-valor binário <br/> Podem sere divididos ou unidos facilmente
+>AVRO: Formato binário para serialização <br/> Ótimo para troca de dados
+>ORC: Colunar otimizado para consultas de linhas <br/> Formato "favorito" do ecossistema Hadoop
+>RC: Orientado a coluna, chave-valor <br/> ALta taxa de compressão em linha
+>Parquet: Orientado a colunas <br/> Binário
+</p>
+
 <h3>Principais comandos:</h3>
 
 <div align="center">
