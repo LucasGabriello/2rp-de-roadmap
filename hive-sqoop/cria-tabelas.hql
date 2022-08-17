@@ -1,25 +1,16 @@
-<h1>Fundamentos Hadoop</h1>
-</p>
-> Hadoop - estrutura de software para processamento de dados de forma distribuida
-</p>
-<h3>Principais comandos:</h3>
+create table generation_lucas(
+generation      int,
+date_introduced date
+)
 
-<div align="center">
-<table>
-<b>
-  <tr>
-  <td>Comando</td>
-  <td>Descrição</td>
-  <td>Parâmetro</td>
-  <td>Executando</td>
-  </tr>
-</b>
-  <tr>
-  <th></th>
-  <th></th>
-  <th></th>
-  <th></th>
-  </tr>
-
-</table>
-</div> 
+create table pokemon_lucas(
+idnum           int,
+name            string,
+hp              int,
+speed           int,
+attack          int,
+special_attack  int,
+defense         int,
+special_defense int,
+generation      int
+)
