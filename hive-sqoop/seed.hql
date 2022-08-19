@@ -31,12 +31,23 @@ Error while compiling statement: FAILED: SemanticException No valid privileges U
 */
 
 /*
----------------------Executado pelo DevOps--------------------
+--------------------- Executado pelo DevOps --------------------
 
 load data inpath '/user/work_dataeng/warehouse/work_dataeng.db/pokemon.csv' into table work_dataeng.pokemon_lucas_temp;
 
----------------------------Sucesso!!!-------------------------
+--------------------------- Sucesso!!! -------------------------
 */
 
 --Insere Dados da tabela temporaria na tabela ORC
 INSERT INTO pokemon_lucas SELECT * FROM pokemon_lucas_temp;
+
+
+------------------ Join Para tabelas comapração -----------------
+
+SELECT pl.*, gl.date_introduced
+FROM pokemon_lucas as pl
+LEFT JOIN  generation_lucas as gl
+    on pl.generation = gl.generation;
+
+-- Impala: Tempo médio 1s
+-- Hive: Tempo médio 50s
