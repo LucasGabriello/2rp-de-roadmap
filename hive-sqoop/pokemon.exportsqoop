@@ -1,5 +1,6 @@
 ...
 
+sqoop export \
 --export-dir
 '/user/work_dataeng/warehouse/work_dataeng.db/pokemon_lucas'
 --table
