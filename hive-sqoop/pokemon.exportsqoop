@@ -1,0 +1,10 @@
+...
+
+--export-dir
+'/user/work_dataeng/warehouse/work_dataeng.db/pokemon_lucas'
+--table
+pokemon_lucas
+--columns
+IDNUM,NAME,HP,SPEED
+
+...
