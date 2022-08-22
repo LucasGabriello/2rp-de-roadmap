@@ -16,7 +16,7 @@ create external table work_dataeng.pokemon_lucas_temp (
 
 -- Necessário realocar o arquivo csv para o mesmo diretório onde será feita a execução do codigo com o comando
 
--- hdfs dfs -cp pokemon.csv /user/work_dataeng/warehouse/work_dataeng.db/
+hdfs dfs -cp pokemon.csv /user/work_dataeng/warehouse/work_dataeng.db/
 
 -- tentando carregar dados do csv na tabela temporária
   
@@ -30,13 +30,13 @@ Error while compiling statement: FAILED: SemanticException No valid privileges U
 
 */
 
-/*
+
 --------------------- Executado pelo DevOps --------------------
 
 load data inpath '/user/work_dataeng/warehouse/work_dataeng.db/pokemon.csv' into table work_dataeng.pokemon_lucas_temp;
 
 --------------------------- Sucesso!!! -------------------------
-*/
+
 
 --Insere Dados da tabela temporaria na tabela ORC
 INSERT INTO pokemon_lucas SELECT * FROM pokemon_lucas_temp;
