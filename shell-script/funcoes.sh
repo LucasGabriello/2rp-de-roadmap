@@ -40,7 +40,7 @@ insere_texto(){
 
     for index in "${!list[@]}"
     do
-       #echo "p" >> ${list[$index]}/*.txt
+       echo "p" >> ${list[$index]}/*.txt
 	 echo "arquivos txt de ${list[$index]} alterados"
     done
 }
