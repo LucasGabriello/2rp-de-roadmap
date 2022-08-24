@@ -20,29 +20,32 @@ lista_arquivos(){
        fi
 
     done
-}
 
+    echo "==================== Caminhos Guardados ==================="
 
-
-insere_texto(){
-    #list="$(find . -name "*.txt")"
-
-for index in "${!list[@]}"
-    do
-	 echo "${list[$index]}"
-       echo "p" >> ${list[$index]}/*.txt
-    done
-}
-
-#insere_texto
-
-for index in "${!list[@]}"
+    #lista caminhos guardados
+    for index in "${!list[@]}"
     do
        echo "${list[$index]}"
     done
 
 
-echo
+}
+
+
+
+insere_texto(){
+
+ echo "==================== Alterando Arquivos ==================="
+
+    for index in "${!list[@]}"
+    do
+       #echo "p" >> ${list[$index]}/*.txt
+	 echo "arquivos txt de ${list[$index]} alterados"
+    done
+}
+
+
 
 
  
