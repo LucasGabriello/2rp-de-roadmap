@@ -1,12 +1,10 @@
 #!/bin/bash
 
 lista_arquivos(){
-    #entrada do diretório
-    echo -n "Digite seu diretório: "
-    read direto
+    
     
     #guarda o retorno dos caminhos percorridos recursivamente 
-    vet=($(ls -R ./$direto))
+    vet=($(ls -R ./$1))
 
     for index in "${!vet[@]}"
     do
@@ -37,10 +35,9 @@ lista_arquivos(){
 insere_texto(){
 
  echo "==================== Alterando Arquivos ==================="
-
     for index in "${!list[@]}"
     do
-       echo "p" >> ${list[$index]}/*.txt
+       echo $1 >> ${list[$index]}/*.txt
 	 echo "arquivos txt de ${list[$index]} alterados"
     done
 }

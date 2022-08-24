@@ -2,8 +2,18 @@
 
 source ./funcoes.sh
 
-lista_arquivos
 
-insere_texto
+executar(){
 
- 
+    echo -n "Digite seu diretório: "
+    read diret
+lista_arquivos "$diret"
+
+    echo -n "Digite um texto: "
+    read texto
+insere_texto "$texto"
+
+
+
+}
+executar
