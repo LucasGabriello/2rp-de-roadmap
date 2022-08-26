@@ -14,7 +14,6 @@ df_generation = df_generation.cache()
 
 #3.3. em um novo dataframe atribua o inner join entre generation e pokemon;
 df_pok_gen = df_pokemon.join(df_generation, 'generation', how = 'inner')
-df_pok_gen.show()
 
 #3.4. por fim, salve o novo dataframe em uma tabela chamada work_dataeng.pokemons_oldschool_lucasa.
 df_pok_gen.write.saveAsTable('work_dataeng.pokemons_oldschool_lucasa', format="orc")
